@@ -10,10 +10,78 @@
     <header>
         <h1>Thomas Hunt</h1>
         <p>Full-Stack Developer</p>
+        <p><em>Python | Rust | SQL | Javascript | HTML | CSS </em></p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="cover-letter.html">Cover Letter</a></li>
+                <li><a href="career-goals.html">Career Goals</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <h2><em><strong>Resume</strong></em></h2>
-        <p>Welcome to my professional resume page.</p>
-    </section>
+    <main>
+        <section>
+            <h2><em><strong>Resume</strong></em></h2>
+            <p>Welcome to my professional resume page.</p>
+            <hr>
+        </section>
+
+        <section>
+            <h3>Contact</h3>
+            <p><span>Email:</span> thun366@wgu.edu <br>
+            Phone: 867-5309</p>
+        </section>
+        <article>
+            <h4>Experience</h4>
+            <table>
+                <caption>Work History</caption>
+                <tr>
+                    <th>Labor Foreman</th>
+                    <th>Suffolk Construction</th>
+                    <th>2022-2024</th>
+                    <th>Lead a team doing jobsite safety prep and supporting other trades.</th>
+                </tr>
+                <tr>
+                    <th>Owner/President</th>
+                    <th>Rising Sun Lawn Care</th>
+                    <th>2012-2022   </th>   
+                    <th>Lawn service with professional hardscape installs and planting. </th>
+                </tr>
+            </table>
+        </article>
+        </article>
+
+        <section>
+            <h5>Skills</h5>
+            <ul>
+                <li>Python</li>
+                <li>Rust</li>
+                <li>SQL</li>
+                <li>Java/Kotlin</li>
+                <li>ITIL</li>
+                <li>Github</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section>
+            <h6>Education</h6>
+            <ol>
+                <li><em>Currently attending:</em>B.S. Data Analytics</li>
+                <li><em>Currently attending:</em> Justice Through Code-Columbia Business School</li>
+                <li>The Odin Project</li>
+            </ol>
+        </section>
+        <div id="date">Date:</div>
+    </main>
+    <footer>
+        <p><a href="https://github.com/thomas-hunt4">GitHub</a></p>
+    </footer>
+    <script>
+    document.getElementById('date').innerHTML = 'Date' + new Date().toDateString();
+    console.log('Page loaded')
+    </script>
 </body>
 </html>

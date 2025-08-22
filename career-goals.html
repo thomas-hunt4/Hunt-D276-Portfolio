@@ -6,6 +6,68 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1>Thomas Hunt</h1>
+        <nav>
+            <a href="index.html">Resume</a>
+            <a href="cover-letter.html">Cover Letter</a>
+            <a href="career-goals.html">Career Goals</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Career Goals</h2>
+            <img src="images/Headshot.jpg" alt="Headshot">
+            <audio controls>
+                <source src="images/borntowin.mp3" type="audio/mp3">
+            </audio>
+            <video controls>
+                <source src="images/boilerplate.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <label>First Name:</label>
+                <input type="text" name="first-name">
+                
+                <label>Last Name:</label>
+                <input type="text" name="last-name">
+                
+                <label>Company:</label>
+                <input type="text" name="company">
+                
+                <label>Email:</label>
+                <input type="email" name="email">
+                
+                <label>Phone:</label>
+                <input type="tel" name="phone">
+                
+                <label>Message:</label>
+                <textarea name="message"></textarea>
+                
+                <p>Best time to contact:</p>
+                <input type="radio" name="time" value="am"> A.M.
+                <input type="radio" name="time" value="pm"> P.M.
+                <input type="radio" name="time" value="anytime"> Anytime
+                
+                <label>Contact method:</label>
+                <select name="method">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                </select>
+                
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p><a href="https://github.com/thomas-hunt4">GitHub</a></p>
+    </footer>
+        
+
     
 </body>
 </html>
