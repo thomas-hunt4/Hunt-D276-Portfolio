@@ -18,15 +18,35 @@
     <main>
         <section>
             <h2>Career Goals</h2>
-            <img src="images/Headshot.jpg" alt="Headshot">
-            <audio controls>
-                <source src="images/borntowin.mp3" type="audio/mp3">
-            </audio>
-            <video controls>
-                <source src="images/boilerplate.mp4" type="video/mp4">
-            </video>
+            <hr>
+            
+            <div class="media-container">
+                <img src="images/Headshot.jpg" alt="Thomas Hunt headshot" class="headshot">
+                
+                <div class="media-controls">
+                    <audio controls class="audio-player">
+                        <source src="images/borntowin.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                    
+                    <video controls class="video-player">
+                        <source src="images/boilerplate.mp4" type="video/mp4">
+                        Your browser does not support the video element.
+                    </video>
+                </div>
+            </div>
+        </section>
+        
+        <section class="goals-content">
+            <h3>My Mission</h3>
+            <p>My career goal is to leverage technology to create positive change in underserved communities. I am passionate about working with justice-impacted individuals and immigrant communities, using my full-stack development skills to build solutions that bridge gaps in access to resources, education, and opportunities.</p>
+            
+            <p>Through my technical expertise in Python, Rust, SQL, and web technologies, combined with my experience in Justice Through Code at Columbia Business School, I aim to develop applications and systems that empower these communities and create pathways to success.</p>
+            
+            <p>I believe technology should be a force for equity and inclusion, and I'm committed to using my skills to make a meaningful impact in the lives of those who need it most.</p>
         </section>
         <section>
+            <h3>Contact me</h3>
             <form action="https://wp.zybooks.com/form-viewer.php" method="post">
                 <label>First Name:</label>
                 <input type="text" name="first-name">
@@ -62,7 +82,7 @@
             </form>
         </section>
     </main>
-    
+
     <footer>
         <p><a href="https://github.com/thomas-hunt4">GitHub</a></p>
     </footer>
